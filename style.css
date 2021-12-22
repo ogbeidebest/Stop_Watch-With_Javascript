@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #e0e0e0;
+}
+#mainstopwatch{
+    width:300px;
+    margin:100px auto;
+    padding: 60px 50px 100px;
+    text-align: center;
+    font-size:40px;
+    background:#e0e0e0 ;
+    box-shadow: 15px 15px 30px #afafaf,-6px 6px 8px #ffff ;
+    border-radius: 38px;
+    background: #e0e0e0;                                          
+    box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffffff;
+}
+
+#mainstopwatch span{
+    
+    color: red;                                                                                                                                                                          
+    padding: 10px;
+    width:55px;
+    border-radius: 5px;
+    margin: 2px;
+    display: inline-block;
+    border-radius: 38px;
+    background: #e0e0e0;
+    box-shadow: 6px -6px 8px #9d9d9d, -6px 6px 8px #ffff;
+}
+
+#mainstopwatch button{
+    background:#0776de ;
+    color: #ffff;
+    padding: 10px 15px                                                                                                                                                                                                                                                                                                                                                                                   ;
+     border: none;                                                                               
+    border-radius: 30px;
+    margin-top: 25px;
+    box-shadow: 6px -6px 8px  #9d9d9d, -6px 6px 8px #ffffff;
+    font-size:20px;
+}
+.container{
+    padding:10%;
+}
+.time{
+    text-align: center;
+    width:300px;
+    height: 300px;
+    margin:0 auto;
+    background: #e0e0e0;
+    padding:50px;
+    border-radius: 38px;
+    box-shadow:6px -6px 8px #9d9d9d,
+                -6px 8px 6px #9d9d9d;
+}
+.time h4{
+    text-align: center;
+    font-size: 20px;
+    color:#afafaf;
+    width:200px;
+    height: 50px;
+    margin: 60px 20px;
+    padding-top: 10px;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffff;
+}
+.body{
+    background-color: #aca9a8;
+    padding:70px 0;
+}
+.Neumorphism{
+    width: 40vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #aca9a8;                                            
+    margin:10em auto;                                                                                                                                                                                           
+    border-radius: 15px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.4),
+                 5px 5px 12px rgba(0, 0, 0, 0.2);                                 
+}   
+.class1{
+  width: 15vw; 
+  height: 30vh;
+  margin-left:40px ;
+  border-radius: 50%;
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.4),
+               inset   5px 5px 12px rgba(0, 0, 0, 0.2);   
+}
+.class2{
+    width: 15vw; 
+    height: 30vh;
+    margin-right:40px ;
+    border-radius: 50%;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.4),
+                    5px 5px 12px rgba(0, 0, 0, 0.2);    
+}
+.login-form{
+    background-color:#ecf0f3;
+    align-items:center;
+    padding:20%;
+}
+.login-container{
+    height:90vh;
+    width:25vw;
+    padding:40px 30px 25px 25px;
+    align-items:center;
+    background-color:#ecf0f3;
+    box-shadow: -6px -5px 8px #ffff,
+                6px 5px 6px  #9d9d9d;
+    border-radius:38px;
+}
+.login-logo{
+    background-image:url('img/red staplar logo.jpg');
+    height:70px;
+    width:70px;
+    margin:0 auto;
+    border-radius:50%;
+}
+.heading{
+    padding:10px;
+    font-size:20px;
+    font-weight:800;
+    letter-spacing:2px;
+   text-align:center;
+}
+.sub-heading{
+    padding-bottom:40px;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:3px;
+   text-align:center;
+}
+.text-field{
+    width:100%;
+    border:none;
+    outline:none;
+    background-color:#ecf0f3;
+    padding:13px;
+    font-size:15px;
+    color:#fff;
+    margin-bottom:9%;
+    border-radius:20px;
+    box-shadow:  inset -6px -5px 8px #ffff,
+               inset  6px 5px 6px  #9d9d9d;
+    
+}
+button{
+    width:100%;
+    border:none;
+    outline:none;
+    background-color:#24cfaa;
+    text-align:center;
+    color:#ffff;
+    padding:13px;
+    margin-bottom:7%;
+    border-radius:20px;
+   
+}
+button:hover{
+    background-color: #2fdbb6;
+ }
+ .link{
+     text-align:center;
+ }
+ .link a{
+     text-decoration:none;
+     color:#aaa;
+     font-size:15px;
+ }
